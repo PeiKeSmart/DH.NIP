@@ -28,8 +28,8 @@
     <PackageIcon>DH.png</PackageIcon>
     <RepositoryUrl>https://github.com/PeiKeSmart/DH.NIP</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>新生命团队;X组件;NewLife;$(AssemblyName)</PackageTags>
-    <PackageReleaseNotes>使用MMF访问数据库文件，避免内存缓存造成内存浪费</PackageReleaseNotes>
+    <PackageTags>新生命团队;X组件;NewLife;$(AssemblyName);在线IP;IP定位</PackageTags>
+    <PackageReleaseNotes>新增在线 IP 对接，支持离线/在线双数据源切换，默认 ip-api.com 免费接口；支持腾讯/高德/百度国内厂商对接，响应多格式自动解析；新增 DB-IP CSV 转纯真格式转换器；在线查询内置缓存与容错；修复 IpDatabase 普通记录地址解析与视图释放缺陷</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
